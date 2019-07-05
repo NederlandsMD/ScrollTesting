@@ -1,0 +1,44 @@
+/* #caps_circle {
+  position: fixed;
+}
+
+#skins_circle {
+  position: fixed;
+} */
+
+#svg-area {
+  position:fixed;
+  background-color: black;
+  display: block;
+  margin-top: 30px;
+}
+
+#notation {
+  top: 700px;
+  position: relative;
+  z-index: -1;
+}
+
+#second {
+  top: 1500px;
+  position: relative;
+  z-index: -1;
+}
+
+#other_thing {
+  top: 15000px;
+  position: relative;
+  z-index: -1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#Plot_title {
+  position: fixed;
+  margin-top: 20px;
+  margin-left: 20px;
+}
